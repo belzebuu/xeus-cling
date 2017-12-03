@@ -1,0 +1,10 @@
+name: example-environment
+channels:
+  - conda-forge
+  - QuantStack
+dependencies:
+  - xeus
+  - cling
+  - xtl
+  - pigixml
+  - xeus-cling
