@@ -1,10 +1,7 @@
-name: example-environment
+name: xeus-cling
 channels:
-  - conda-forge
+  - nodefaults
   - QuantStack
 dependencies:
-  - xeus
-  - cling
-  - xtl
-  - pigixml
   - xeus-cling
+  - notebook
