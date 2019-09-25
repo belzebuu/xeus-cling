@@ -8,17 +8,21 @@
 #include <string>
 #include <sstream>
 using namespace std;
-int are(int w,int d);
+int area(int w,int d);
 
 int main()
 {
 
 
-cout<<are(5, 10);
+//cout<<are(5, 10);
+ auto weight,deep;
+ cin >> weight;
+ cin >> deep;
+ area(weight,deep)
   return 0;
    
 }
-int are(int weight,int deep)
+int area(int weight,int deep)
 {
 
 
