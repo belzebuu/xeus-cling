@@ -27,8 +27,8 @@ int area(int weight,int deep)
 
 
         try {
-        cin >> weight;
-        cin >> deep;
+      //  cin >> weight;
+      //  cin >> deep;
 
         if (weight < 0 ||  deep<0)      //Try for negative value
         {
